@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en'
-title = '永野のポートフォリオ'
+title = '^^b'
 
 [module]
 proxy = "direct"
@@ -33,3 +33,6 @@ showLightDarkModeMenu = true
 # name = "GitHub"
 # weight = 50
 # url = "https://github.com/google/docsy/"
+
+[params.print]
+disable_toc = true

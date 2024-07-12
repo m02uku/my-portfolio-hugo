@@ -2,4 +2,5 @@
 title = 'Top'
 +++
 
-Hello, world!
+{{< blocks/cover title="^^b" image_anchor="center" height="full" color="auto" >}}
+{{< /blocks/cover >}}
