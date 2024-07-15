@@ -13,6 +13,15 @@ path = "github.com/google/docsy"
 [markup.goldmark.renderer]
 unsafe = true
 
+[params]
+
+# Enable the left sidebar
+enableSideMenu = true
+
+# UI
+[params.ui]
+showLightDarkModeMenu = true
+
 # community
 [params.links]
 [[params.links.developer]]
@@ -20,19 +29,15 @@ name = "GitHub"
 url = "https://github.com/m02uku/my-portfolio-hugo"
 icon = "fab fa-github"
 
-[outputs]
-section = ["HTML", "RSS", "print"]
-
-# UI
-[params]
-[params.ui]
-showLightDarkModeMenu = true
-
-# External links on the top menu
-[[menu.main]]
-# name = "GitHub"
-# weight = 50
-# url = "https://github.com/google/docsy/"
 
 [params.print]
 disable_toc = true
+
+[outputs]
+section = ["HTML", "RSS", "print"]
+
+# External links on the top menu
+# [[menu.main]]
+# name = "GitHub"
+# weight = 50
+# url = "https://github.com/google/docsy/"
