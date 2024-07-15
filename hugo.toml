@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 # baseURL = "https://m02uku.github.io/my-portfolio-hugo/"
-languageCode = 'en'
+languageCode = 'ja'
 title = 'Portfolio'
 
 [module]
@@ -27,7 +27,7 @@ showLightDarkModeMenu = true
 [params.links]
 [[params.links.developer]]
 name = "GitHub"
-url = "https://github.com/m02uku/my-portfolio-hugo"
+url = "https://github.com/m02uku"
 icon = "fab fa-github"
 
 
