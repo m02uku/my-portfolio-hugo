@@ -1,3 +1,3 @@
 {{ $path := .Get "path" }} {{ $title := .Get "title" }} {{ if not $title }} {{ $title =
 (path.Base $path) }} {{ end }}
-<a href="{{ $path }}" target="_blank">{{ $title }}</a>
+<a href="/my-portfolio-hugo/{{ $path }}" target="_blank">{{ $title }}</a>
