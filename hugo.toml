@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 # baseURL = "https://m02uku.github.io/my-portfolio-hugo/"
 languageCode = 'en'
-title = '^^b'
+title = 'Portfolio'
 
 [module]
 proxy = "direct"
